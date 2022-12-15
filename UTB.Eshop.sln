@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTB.Eshop.Web", "UTB.Eshop.Web\UTB.Eshop.Web.csproj", "{915DA427-DE3B-401A-9796-10C001365E45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTB.Eshop.Domain.Abstraction", "UTB.Eshop.Domain.Abstraction\UTB.Eshop.Domain.Abstraction.csproj", "{A7633AA3-EC13-4298-99A9-913290D40773}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTB.Eshop.Domain.Abstraction", "UTB.Eshop.Domain.Abstraction\UTB.Eshop.Domain.Abstraction.csproj", "{A7633AA3-EC13-4298-99A9-913290D40773}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTB.Eshop.Domain.Implementation", "UTB.Eshop.Domain.Implementation\UTB.Eshop.Domain.Implementation.csproj", "{66126F7F-F6FE-4761-AF5A-C0A692922869}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTB.Eshop.Domain.Implementation", "UTB.Eshop.Domain.Implementation\UTB.Eshop.Domain.Implementation.csproj", "{66126F7F-F6FE-4761-AF5A-C0A692922869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTB.Eshop.Tests", "UTB.Eshop.Tests\UTB.Eshop.Tests.csproj", "{BB474830-2FC3-4A6B-89F2-0CAD94E33622}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{66126F7F-F6FE-4761-AF5A-C0A692922869}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66126F7F-F6FE-4761-AF5A-C0A692922869}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66126F7F-F6FE-4761-AF5A-C0A692922869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB474830-2FC3-4A6B-89F2-0CAD94E33622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB474830-2FC3-4A6B-89F2-0CAD94E33622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB474830-2FC3-4A6B-89F2-0CAD94E33622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB474830-2FC3-4A6B-89F2-0CAD94E33622}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
